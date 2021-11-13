@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+.main-block {
+  width: 900px;
+  display: flex;
+  margin: 70px auto;
+}
+
+.ingredients-block, .burger-block {
+  width: 50%;
+  height: auto;
+  margin: 0 20px;
+  padding: 40px 10px;
+  border-radius: 5px;
+  background-color: #eeeeee;
+  border: 1px solid #cecece;
+}
+
+
+/*.ingredients-list__desc {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*}*/
+
+/*.ingredients-list__item {*/
+/*  border: 1px solid #cecece;*/
+/*  border-radius: 3px;*/
+/*  margin-top: 10px;*/
+/*  padding: 10px 0 10px 20px;*/
+/*}*/
+/*.img_desc {*/
+/*  width: 80px;*/
+/*  height: auto;*/
+/*  cursor: pointer;*/
+/*  border-radius: 25%;*/
+/*}*/
+/*.burger-img {*/
+/*  width: 300px;*/
+/*  height: auto;*/
+/*}*/
+
+/*.fa-trash-alt {*/
+/*  transition: all 100ms;*/
+/*}*/
+
+/*.fa-trash-alt:hover {*/
+/*  color: rgb(255, 34, 34);*/
+/*  font-size: 19px;*/
+/*  cursor: pointer;*/
+/*}*/
