@@ -1,12 +1,12 @@
 <h4 class="ingredients-title">Ingredients</h4>
 <div class="ingredients-list my-5">
-<!--  <app-ingredients-item *ngFor="let ingredient of ingredients; let i = index;"-->
-<!--                        [title]="ingredient.name"-->
-<!--                        [imgUrl]="ingredient.imgUrl"-->
-<!--                        [count]="ingredient.count"-->
-<!--                        (add)="addItem(i)"-->
-<!--                        (delete)="deleteItem(i)"></app-ingredients-item>-->
-<!--  <button class="btn btn-primary mt-4" (click)="getPrice()">get</button>-->
+  <app-ingredients-items *ngFor="let ingredient of ingredients; let i = index;"
+                        [title]="ingredient.name"
+                        [imgUrl]="ingredient.imgUrl"
+                        [count]="ingredient.count"
+                        (add)="addItem(i)"
+                        (delete)="deleteItem(i)"></app-ingredients-items>
+  <button class="btn btn-primary mt-4" (click)="getPrice()">get</button>
 </div>
 
-<!--<div>{{ price }}</div>-->
+<div>Price: {{ price }}</div>

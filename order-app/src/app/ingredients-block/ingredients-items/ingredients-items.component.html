@@ -1,0 +1,8 @@
+<div class="ingredients-list__item">
+  <div class="ingredients-list__desc row">
+    <img src="{{ imgUrl }}" alt="" class="col img_desc"  (click)="addItem()">
+    <span class="col">{{ title}}</span>
+    <span class="col">x {{ count }}</span>
+    <span class="col"><i class="fas fa-trash-alt" (click)="deleteItem()"></i></span>
+  </div>
+</div>
